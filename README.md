@@ -1,29 +1,22 @@
 # Techselector
 
-Simple recommendation website made with React Hooks and Redux.
+Simple recommendation website where you can shot list product with the help of filters and buy them.
 
 ## Features
 
-- Home, Products, Product Details, Liked, Cart, Login, Profile and Error pages
-- State management with Redux
-- Responsive design with Bootstrap
-- Products pagination with infinite scroll
-- Insert Advertisements at every N products
+- Home, Products, Product Details, Liked, Cart, Login and profile.
 - Products sorting by price, weight, size asc and desc
 - Product filtering by devices and performance
 - Ability to like the products (wishlist)
-- Product Details page with image magnify
-- Cart with increment, decrement and remove product abilities
+- Insert Advertisements at every N products
+- Responsive design with Bootstrap
+- Products pagination with infinite scroll
 - Local Login/Register with Formik validation
 - Login with Google OAuth, client side auth
-- Profile page is behind protected route
-- Product card with loader for image loading
 - Toast messages for adding, liking a product, login/logout with Google/Local and network errors
-- Loading state with spinner with text or default spinner
 - Two fake backends with Promise and Axios-Mock-Adapter strategies
 - Config file with settable pagination page size, advertisement index and fake backend delay
 - Dynamic data creation and randomizing with Faker
-- Dynamic carousel width with React Container Dimensions and image cropping with `object-fit:cover`
 
 ## Libraries used
 
