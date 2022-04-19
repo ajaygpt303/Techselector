@@ -60,7 +60,7 @@ const Advertisement = ({ name, image, description, link1, link2, time }) => {
           </Card.Body>
           <ListGroup variant="flush">
             <ListGroup.Item>
-              <Card.Link href={link1}>Link 1</Card.Link>
+              <Card.Link href={link1="https://www.google.com/"}>Link 1</Card.Link>
               <Card.Link href={link2}>Link 2</Card.Link>
             </ListGroup.Item>
           </ListGroup>
