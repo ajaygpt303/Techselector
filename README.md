@@ -14,7 +14,6 @@ Simple recommendation website where you can shot list product with the help of f
 - Local Login/Register with Formik validation
 - Login with Google OAuth, client side auth
 - Toast messages for adding, liking a product, login/logout with Google/Local and network errors
-- Two fake backends with Promise and Axios-Mock-Adapter strategies
 - Config file with settable pagination page size, advertisement index and fake backend delay
 - Dynamic data creation and randomizing with Faker
 
